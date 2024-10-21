@@ -40,6 +40,7 @@ class _SignUpPage extends State<SignUpPage> {
   final TextEditingController _emailController = TextEditingController();
   TextEditingController password = TextEditingController();
   final TextEditingController _confirmpassword = TextEditingController();
+  final TextEditingController _companyNameController = TextEditingController(); //added
   String phoneNumber = '';
   String dialCode = '+91'; // Set default dial code to 91
   String selectedCountry = 'IN';
@@ -60,6 +61,7 @@ class _SignUpPage extends State<SignUpPage> {
     _confirmpassword.dispose();
 
     _MiddleName.dispose();
+    _companyNameController.dispose(); //added
     super.dispose();
   }
 
@@ -252,6 +254,36 @@ class _SignUpPage extends State<SignUpPage> {
                       },
                     ),
                     const SizedBox(height: 19),
+                    TextFormField(
+                      controller:  _companyNameController,
+                                          keyboardType: TextInputType.name,
+                      autovalidateMode: AutovalidateMode.onUserInteraction,
+                      inputFormatters: [
+                        FilteringTextInputFormatter.allow(
+                          RegExp(r'[a-zA-Z0-9\s]{1,100}'),
+                        )
+                      ],
+                        decoration: InputDecoration(
+                          hintText: 'Company Name',
+                          filled: true,
+                          fillColor: Colors.white,
+                          border: OutlineInputBorder(
+                            borderRadius: BorderRadius.circular(30.0)
+                          ),
+                          contentPadding: EdgeInsets.symmetric(horizontal: 16,vertical: 13 )
+                        ),
+                        validator: (value){
+                          if(value ==null || value.isEmpty){
+                            return 'Company Name cannot be empty';
+                          }
+                          if(value.length> 100){
+                            return 'Company Name allow max 100';
+                          }
+                          return null;
+                        },     
+                    ),
+                    const SizedBox(height: 19),
+
                     Container(
                       height: 60,
                       padding:
@@ -463,8 +495,8 @@ class _SignUpPage extends State<SignUpPage> {
                           ),
                         ),
                       ],
-                    ),
-
+                    ), 
+                    const SizedBox(height: 19),
                     //  Row(
                     //   children: [
                     //     Checkbox(value: _agreeToTerms, onChanged: (bool? value){
@@ -773,6 +805,9 @@ class _SignUpPage extends State<SignUpPage> {
     });
 
     try {
+      // String companyName = _companyNameController.text;   //added
+      // print('"company Name: $companyName');        //added
+
       var response = await apiService.registerUser(
         _firstNameController.text,
         _lastNameController.text,
@@ -782,6 +817,7 @@ class _SignUpPage extends State<SignUpPage> {
         numberWithoutDialCode,
         selectedCountry,
         dialCode,
+        _companyNameController.text,  //added
       );
 
       setState(() {

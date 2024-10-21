@@ -77,7 +77,8 @@ class ApiService {
       String password,
       String phoneNo,
       String country,
-      String countryCode) async {
+      String countryCode,
+      String companyName) async {            //added companyname
     String apiUrl = "$baseUrl/user/signup";
 
     Map<String, dynamic> data = {
@@ -89,6 +90,7 @@ class ApiService {
       "phoneNo": phoneNo,
       "country": country,
       "countryCode": countryCode,
+      "companyNmae" : companyName   //added
     };
 
     String requestBody = jsonEncode(data);

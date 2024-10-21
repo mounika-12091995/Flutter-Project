@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "825125131655",
+    "firebase_url": "https://shubhvite-2544d-default-rtdb.firebaseio.com",
+    "project_id": "shubhvite-2544d",
+    "storage_bucket": "shubhvite-2544d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:825125131655:android:8534c6878fbd958ec96f22",
+        "android_client_info": {
+          "package_name": "com.progressiveitservices.Shubhvite"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "825125131655-6ebqeml0mmk23u3tq11ldium8f3p8p42.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.progressiveitservices.Shubhvite",
+            "certificate_hash": "1f63fe26344b24228d8ada04fe0134d8af28a176"
+          }
+        },
+        {
+          "client_id": "825125131655-jacgeegcurahctb1l0vm53h20f1u3tb8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBZYtDPoQtaUYf8edJOr2zMeSiYNk6MFqI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "825125131655-jacgeegcurahctb1l0vm53h20f1u3tb8.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "825125131655-7h0u77q4o54976qgk70n0ugeriqft25u.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.getContacts"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

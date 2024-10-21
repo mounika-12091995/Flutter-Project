@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>516995529009-s25kahqpqsim9lvelprt3dklouu3b9kv.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.516995529009-s25kahqpqsim9lvelprt3dklouu3b9kv</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>516995529009-28bi5jalof0bar347t742nhkuqolcevo.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDHkCkZ6tOpnIzzN87DsKCEmT-MVVqd-7s</string>
+	<key>GCM_SENDER_ID</key>
+	<string>516995529009</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.progressiveitservices.Shubhvite</string>
+	<key>PROJECT_ID</key>
+	<string>Shubhvite-418105</string>
+	<key>STORAGE_BUCKET</key>
+	<string>Shubhvite-418105.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:516995529009:ios:e60192462cb7926718d810</string>
+</dict>
+</plist>

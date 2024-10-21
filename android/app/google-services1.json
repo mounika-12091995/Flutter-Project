@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "825125131655",
+    "project_id": "shubhvite-2544d",
+    "storage_bucket": "shubhvite-2544d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:825125131655:android:8534c6878fbd958ec96f22",
+        "android_client_info": {
+          "package_name": "com.progressiveitservices.Shubhvite"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBZYtDPoQtaUYf8edJOr2zMeSiYNk6MFqI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

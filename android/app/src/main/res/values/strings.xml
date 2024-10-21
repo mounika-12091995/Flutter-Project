@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">InviteEvent</string>
+    <string name="facebook_app_id">348047761696865</string>
+    <string name="facebook_client_token">4e4eb181d1e898e95607b93c915ee2d1</string>
+    <!-- Add more strings here -->
+</resources>

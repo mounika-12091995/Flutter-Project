@@ -90,7 +90,7 @@ class ApiService {
       "phoneNo": phoneNo,
       "country": country,
       "countryCode": countryCode,
-      "companyNmae" : companyName   //added
+      "companyNmae" : companyName   //added to get company name
     };
 
     String requestBody = jsonEncode(data);
